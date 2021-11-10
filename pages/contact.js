@@ -4,7 +4,7 @@ function Contact() {
     return (
         <main>
             <div className="formflex">
-                <img src='./images/contact.png' class="formflexcontent formimg" />
+                <img src='./images/contact.png' className="formflexcontent formimg" />
                 <form className="formflexcontent">
                     <h2> Interested in a consultation?  Have questions about our services?  We're happy to help!</h2>
                     <span>Name:</span> <span>Email:</span>

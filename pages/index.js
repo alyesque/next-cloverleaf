@@ -17,7 +17,7 @@ export default function Home() {
             <p> Keep your math skills sharp! Our math experts work with high school & college students and adult learners to help them achieve their goals! </p>
             <button> <Link href='/contact'> Request A Consultation </Link> </button>
           </div>
-          <div claclassNamess="right1">
+          <div className="right1">
             <img src='./images/testart.png' className="sectionimage" />
           </div>
         </section>

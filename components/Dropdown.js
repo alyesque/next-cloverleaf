@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 function Dropdown() {
     return (
-        <div class='dropdown'>
+        <div className='dropdown'>
             <li><Link href='/'>  Home  </Link></li>
             <li><Link href='/about'>  About </Link></li>
             <li> <Link href='/blog'> Blog  </Link></li>
