@@ -86,8 +86,7 @@ const FeaturedPosts = () => {
                                     <div className='sec'><button onClick={() => expand(posts, posts.indexOf(post))}>Read More</button></div>
                                 </div>
 
-                                {/* <img src={handleResponse(products, products.indexOf(product))} alt='image' /><br /> */}
-                                {/* <img src={product.content.substring(479, 717)} alt='' /><br /> */}
+
 
 
                             </div>

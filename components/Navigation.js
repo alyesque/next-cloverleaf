@@ -27,8 +27,8 @@ function Navigation() {
 
     return (
         <nav>
-            <img src='./images/mathlogo.png' class="logo" />
-            <div class="links">
+            <img src='./images/mathlogo.png' className="logo" />
+            <div className="links">
                 <Link href='/' > Home </Link>
                 <Link href='/about' > About </Link>
                 <Link href='/blog' > Blog </Link>
@@ -36,7 +36,7 @@ function Navigation() {
             </div>
 
             <div onClick={() => showDropdown()}>{dropdown === true && <Dropdown />}</div>
-            <img src='./images/seemore.png' class="seemore" onClick={() => showDropdown()} />
+            <img src='./images/seemore.png' className="seemore" onClick={() => showDropdown()} />
 
         </nav>
     )
