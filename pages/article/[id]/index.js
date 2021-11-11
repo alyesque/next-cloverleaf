@@ -1,6 +1,6 @@
 import { useRouter } from "next/dist/client/router"
 
-const article = ({ articles }) => {
+const Article = ({ articles }) => {
     const router = useRouter()
     const { id, content } = router.query
     console.log(articles[id])
@@ -29,4 +29,4 @@ export const getServerSideProps = async (context) => {
     }
 }
 
-export default article
+export default Article

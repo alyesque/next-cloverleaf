@@ -11,7 +11,7 @@ function About() {
                 <div className="left1">
                     <h1 className='h1Big'>
                         How It Works</h1>
-                    <p> All sessions are one-on-one to ensure the session is as productive as possible. I offer a free assessment for new students as a diagnostic tool to help us in our work. I can provide curricular materials and additional homework problems if desired.
+                    <p> All sessions are one-on-one to ensure the session is as productive as possible. I offer a free assessment for new students as a diagnostic tool to help us in our work. I can provide curricular materials and additional homework problems if desired. <br></br><br></br>Both online and in-person sessions are available. In-person sessions take place in the Eugene/Springfield, OR area. All sessions cost $50/hour.
                     </p>
 
                 </div>

@@ -469,3 +469,16 @@ form h2 {
 	background-color: #EBF3E9;
 }
 }
+
+.hrHome {
+	border: none;
+	border-top: 1px solid #12805C;
+	width: 50%;
+}
+
+.contactInfo {
+	text-align: center;
+	width: 50%;
+	margin: 0 auto;
+	padding-top: 50px;
+}
