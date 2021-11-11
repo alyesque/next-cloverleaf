@@ -44,10 +44,10 @@ function Contact() {
                 </h1>
                 <p>I’d love to answer any questions you may have, or schedule a free consultation to see if I can help your student. Please fill out an inquiry form, or if you prefer, you can reach me at
 
-                    connect@cloverleafmath.com
+                    <strong> connect@cloverleafmath.com</strong>.
                     <br />
                     <br />
-                    You can also give me a call or text at (541) 484-9867. I look forward to hearing from you!
+                    You can also give me a call or text at <strong>(541) 484-9867</strong>. I look forward to hearing from you!
                 </p>
             </div>
             <div className="formflex">
