@@ -17,7 +17,7 @@ const ArticleList = ({ articles }) => {
     return (
         <div>
             <div>
-                <div className='subjectheader'>Recent Posts</div>
+                <h1>Recent Posts</h1>
                 <div className='item-container'>
                     {articles.map((post) => {
                         return (
