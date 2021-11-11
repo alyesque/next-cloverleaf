@@ -16,7 +16,8 @@ export default function Home() {
               Private Math Lessons</h1>
             <p> Keep your math skills sharp! I work with K-12 students, college students, and adult learners to help them achieve their goals. I can help with homework and class content, or I can design a custom learning plan for your student. Both online and in-person sessions are available.
             </p>
-            <button> <Link href='/contact'> Request A Consultation </Link> </button>
+            <Link href='/contact'><button>  Request A Consultation </button></Link>
+
           </div>
           <div className="right1">
             <img src='./images/testart.png' className="sectionimage" />
