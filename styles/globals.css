@@ -67,7 +67,7 @@ h1 {
 .card img, .cardSmall img {
   height: 250px;
   width: 250px;
-  object-fit: cover;
+  object-fit:scale-down;
 }
 
 .blogPost {
@@ -491,4 +491,8 @@ form h2 {
 .profilePic {
 	width: 70%;
 	min-width: 300px;
+}
+
+.sectionimage2 {
+	max-width: 600px;
 }

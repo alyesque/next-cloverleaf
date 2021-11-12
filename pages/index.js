@@ -48,6 +48,17 @@ export default function Home() {
             <p>We can schedule a free assessment to help me design a customized learning plan for your student. Let me help you soar ahead or get caught up! Whether you're looking for enrichment, review, or anything in between, I can help. Schedule your assessment today!</p>
           </div>
         </section>
+        <hr className='hrHome' />
+
+        <section className=" flex">
+
+          <img src='./images/testi.png' className="sectionimage2 left1" />
+          <div className='right1'>
+            <h1> Testimonials </h1>
+            <p>“Clare is an amazing tutor, she is kind, patient and very knowledgeable in mathematics. She has helped me to understand the material in school, as well as preparing me for exams. She crafts interesting material with real world examples. I greatly enjoy my time spent working with her.” -AJ, 9th grade (AP statistics)
+            </p>
+          </div>
+        </section>
       </main>
 
     </div>
