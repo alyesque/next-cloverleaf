@@ -9,7 +9,7 @@ const FeaturedPosts = ({ articles }) => {
     return (
         <>
             <Head>
-                <title>Cloverleaf Math - Contact</title>
+                <title>Cloverleaf Math - Blog</title>
             </Head>
             <ArticleList articles={articles} />
         </>
