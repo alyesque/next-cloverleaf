@@ -487,3 +487,8 @@ form h2 {
 .emailLink {
 	color: black;
 }
+
+.profilePic {
+	width: 70%;
+	min-width: 500px;
+}
