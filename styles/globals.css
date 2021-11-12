@@ -483,3 +483,7 @@ form h2 {
 	margin: 0 auto;
 	padding-top: 50px;
 }
+
+.emailLink {
+	color: black;
+}

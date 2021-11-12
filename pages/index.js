@@ -31,7 +31,7 @@ export default function Home() {
         <hr className='hrHome' />
         <section className="flex list">
           <div className="left1">
-            <h2> Math Tutoring </h2>
+            <h2> Homework Help </h2>
             <img src='./images/meeting.png' className="smallimg" />
             <p> In a one-on-one tutoring session, I’ll explain concepts and methods in a way that is compatible with your learning style and background, and guide you through each stage of the learning process. We can identify and correct any subtle misunderstandings so that you have a strong foundation for future work.</p>
           </div>

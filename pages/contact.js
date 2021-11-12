@@ -1,5 +1,6 @@
 import React from "react"
 import { useState } from 'react'
+import Link from "next/dist/client/link";
 import { send } from 'emailjs-com'
 
 
@@ -44,7 +45,7 @@ function Contact() {
                 </h1>
                 <p>I’d love to answer any questions you may have, or schedule a free consultation to see if I can help your student. Please fill out an inquiry form, or if you prefer, you can reach me at
 
-                    <strong> connect@cloverleafmath.com</strong>.
+                    <strong> <a href='mailto:connect@cloverleafmath.com' className='emailLink'>connect@cloverleafmath.com</a></strong>.
                     <br />
                     <br />
                     You can also give me a call or text at <strong>(541) 484-9867</strong>. I look forward to hearing from you!
@@ -68,7 +69,7 @@ function Contact() {
                     <button>Submit</button>
                 </form>
             </div>
-        </main>
+        </main >
 
     )
 }
