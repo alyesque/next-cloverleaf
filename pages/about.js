@@ -1,9 +1,12 @@
-
+import Head from "next/dist/shared/lib/head"
 
 function About() {
 
     return (
         <div>
+            <Head>
+                <title>Cloverleaf Math - About</title>
+            </Head>
             <section className='flex landing'>
                 <div className="right1">
                     <img src='./images/onmeet.png' className="sectionimage" />

@@ -1,13 +1,18 @@
 import React, { useState, useEffect } from 'react';
 import ArticleList from '../components/ArticleList';
+import Head from 'next/dist/shared/lib/head';
 
 const FeaturedPosts = ({ articles }) => {
 
     console.log(articles)
 
     return (
-        <ArticleList articles={articles} />
-
+        <>
+            <Head>
+                <title>Cloverleaf Math - Contact</title>
+            </Head>
+            <ArticleList articles={articles} />
+        </>
     );
 };
 export default FeaturedPosts;

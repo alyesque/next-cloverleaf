@@ -1,4 +1,5 @@
 import { useRouter } from "next/dist/client/router"
+import Head from "next/dist/shared/lib/head"
 
 const Article = ({ articles }) => {
     const router = useRouter()
@@ -7,7 +8,9 @@ const Article = ({ articles }) => {
     return (
 
         <div className='card' key={articles[id]}>
-
+            <Head>
+                <title>{articles[id].title}</title>
+            </Head>
 
             <h1> {articles[id].title} </h1>
             <div className="blogPost" dangerouslySetInnerHTML={{ __html: articles[id].content }} />

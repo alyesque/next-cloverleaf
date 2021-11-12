@@ -2,6 +2,7 @@ import React from "react"
 import { useState } from 'react'
 import Link from "next/dist/client/link";
 import { send } from 'emailjs-com'
+import Head from "next/dist/shared/lib/head";
 
 
 
@@ -39,6 +40,9 @@ function Contact() {
     };
     return (
         <main>
+            <Head>
+                <title>Cloverleaf Math - Contact</title>
+            </Head>
             <div className='contactInfo'>
                 <h1>
                     Get In Touch
