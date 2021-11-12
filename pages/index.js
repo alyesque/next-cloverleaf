@@ -38,13 +38,14 @@ export default function Home() {
           <div className="right1">
             <h2> SAT/ACT/GRE Math Prep </h2>
             <img src='./images/meeting1.png' className="smallimg" />
-            <p> Don't be intimidated by standardized tests. I can help you review important concepts and learn crucial strategies & time-saving tips. I’ll work with you in one-on-one tutoring sessions instead of making you pay for pre-defined packages or group classes- this lets us personalize every aspect of our work together.
+            <p>
+              Don't be intimidated by standardized tests. I can help you review important concepts and learn crucial strategies & time-saving tips. I’ll work with you in one-on-one tutoring sessions instead of pre-defined packages or group classes- this lets us personalize every aspect of our work together.
             </p>
           </div>
           <div className="right1">
             <h2>Custom Learning Plans</h2>
             <img src='./images/meeting2.png' className="smallimg" />
-            <p>We an schedule a free assessment to help me design a customized learning plan for your student. Let me help you soar ahead or get caught up! Whether you're looking for enrichment, review, or anything in between, I can help. Schedule your assessment today!</p>
+            <p>We can schedule a free assessment to help me design a customized learning plan for your student. Let me help you soar ahead or get caught up! Whether you're looking for enrichment, review, or anything in between, I can help. Schedule your assessment today!</p>
           </div>
         </section>
       </main>

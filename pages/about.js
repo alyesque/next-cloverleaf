@@ -19,20 +19,21 @@ function About() {
             <div className='subjectback'>
                 <div className='subjectheader'> Subject Areas </div>
                 <div className='subjectsgrid'>
-                    <div className="subject"> Pre-Algebra </div>
-                    <div className="subject2"> Middle School <br /> Math </div>
+                    <div className="subject2"> Competition <br /> Mathematics </div>
+                    <div className="subject2"> Pre-Algebra <br />&<br /> Middle School <br /> Math </div>
                     <div className="subject"> Algebra 1 </div>
                     <div className="subject2"> Geometry </div>
 
                     <div className="subject2"> Statistics </div>
                     <div className="subject"> Algebra 2</div>
-                    <div className="subject2"> Calculus </div>
                     <div className="subject"> Precalculus </div>
+                    <div className="subject2"> Calculus </div>
+
 
                     <div className="subject"> Differential <br />Equations </div>
                     <div className="subject2"> Linear <br /> Algebra </div>
                     <div className="subject"> Discrete <br /> Mathematics </div>
-                    <div className="subject2"> Competition <br /> Mathematics </div>
+                    <div className="subject2"> Early Counting<br />Numeracy <br /> & <br /> Elementary School Math </div>
                 </div> <br />
                 <h2>Are you working on a course I didn’t list? Send me an email-- I can probably help with your course! </h2>
             </div>
