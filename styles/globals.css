@@ -22,7 +22,6 @@ h1 {
   width: fit-content;
   border-radius: 5px;
   padding: 1em;
-  box-shadow: rgba(99, 99, 99, 0.5) 0px 2px 8px 0px;
 }
 
 .cardSmall {
@@ -530,4 +529,8 @@ a {
 
 .padsect {
   padding: 30px 0;
+}
+
+.articleList {
+  min-height: 75vh;
 }

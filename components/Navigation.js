@@ -25,11 +25,14 @@ function Navigation() {
 
   return (
     <nav>
-      <img
-        src="./images/mathlogo.png"
-        className="logo"
-        alt="cloverleaf math logo"
-      />
+      <Link href="/">
+        <img
+          src="./images/mathlogo.png"
+          className="logo"
+          alt="cloverleaf math logo"
+        />
+      </Link>
+
       <div className="links">
         <Link href="/"> Home </Link>
         <Link href="/about"> About </Link>

@@ -13,7 +13,7 @@ const ArticleList = ({ articles }) => {
     return root.childNodes[0].childNodes[0]._rawText;
   }
   return (
-    <div>
+    <div className="articleList">
       <div>
         <h1>Recent Posts</h1>
         <div className="item-container">

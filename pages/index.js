@@ -32,11 +32,7 @@ export default function Home() {
             />
           </div>
         </section>
-        {/* <section className="about">
-          <h1 className='h1Big'> What Do We Do? </h1>
-          <img src='./images/team.png' className="medimg" />
-          <p> At Cloverleaf Math Center, we really love math.We also know firsthand that a one-size-fits-all approach to math education just doesn't work. We're constantly brainstorming new ways to explain material & consulting new research in mathematics education and curriculum design.We work with students with many different goals, and we know how to be responsive to a student's unique needs and learning style. We specialize in working with high school and college students, as well as adult learners and younger students looking for math enrichment. </p>
-        </section> */}
+
         <hr className="hrHome" />
         <section className="flex list">
           <div className="left1">
@@ -47,7 +43,6 @@ export default function Home() {
               alt="woman at desk writing"
             />
             <p>
-              {" "}
               In a one-on-one tutoring session, I’ll explain concepts and
               methods in a way that is compatible with your learning style and
               background, and guide you through each stage of the learning
