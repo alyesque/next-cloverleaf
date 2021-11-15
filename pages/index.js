@@ -25,7 +25,11 @@ export default function Home() {
             </Link>
           </div>
           <div className="right1">
-            <img src="./images/testart.png" className="sectionimage" />
+            <img
+              src="./images/testart.png"
+              className="sectionimage"
+              alt="illustration of woman reading a book"
+            />
           </div>
         </section>
         {/* <section className="about">
@@ -37,7 +41,11 @@ export default function Home() {
         <section className="flex list">
           <div className="left1">
             <h2> Homework Help </h2>
-            <img src="./images/meeting.png" className="smallimg" />
+            <img
+              src="./images/meeting.png"
+              className="smallimg"
+              alt="woman at desk writing"
+            />
             <p>
               {" "}
               In a one-on-one tutoring session, I’ll explain concepts and
@@ -49,7 +57,11 @@ export default function Home() {
           </div>
           <div className="right1">
             <h2> SAT/ACT/GRE Math Prep </h2>
-            <img src="./images/meeting1.png" className="smallimg" />
+            <img
+              src="./images/meeting1.png"
+              className="smallimg"
+              alt="two people studying at a desk"
+            />
             <p>
               Don't be intimidated by standardized tests. I can help you review
               important concepts and learn crucial strategies & time-saving
@@ -60,7 +72,11 @@ export default function Home() {
           </div>
           <div className="right1">
             <h2>Custom Learning Plans</h2>
-            <img src="./images/meeting2.png" className="smallimg" />
+            <img
+              src="./images/meeting2.png"
+              className="smallimg"
+              alt="professional woman sitting at a desk"
+            />
             <p>
               We can schedule a free assessment to help me design a customized
               learning plan for your student. Let me help you soar ahead or get
