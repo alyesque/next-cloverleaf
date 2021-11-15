@@ -7,7 +7,7 @@ function Testimonials() {
 
   let t2 =
     "“Clare worked with me in preparation for the GRE. Math has always left me feeling insecure, but Clare’s infectious enthusiasm for the subject made the commitment of time to studying much less intimidating. Her deep knowledge, patience, and abundant assurance put me at my best for test day.” ";
-  let s2 = "Alex T, (GRE prep)";
+  let s2 = "Alex T (GRE prep)";
   const [student, setStudent] = useState(s1);
   const [testim, setTestim] = useState(t1);
 

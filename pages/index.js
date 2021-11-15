@@ -7,6 +7,8 @@ export default function Home() {
     <div>
       <Head>
         <title>Cloverleaf Math</title>
+        <meta property="og:image" content="./images/testart.png" />
+        <meta name="twitter:image" content="./images/testart.png"></meta>
       </Head>
       <main>
         <section className="flex landing">
