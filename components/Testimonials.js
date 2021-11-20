@@ -43,12 +43,6 @@ function Testimonials() {
   return (
     <div className="testimonial">
       <div className="testiCard">
-        <p
-          dangerouslySetInnerHTML={{
-            __html: testim,
-          }}
-        ></p>
-        <h3>{student}</h3>
         <div className="testiflex">
           <div className="clicker" onClick={() => backwardTest()}>
             {" "}
@@ -62,6 +56,12 @@ function Testimonials() {
             →{" "}
           </div>
         </div>
+        <p
+          dangerouslySetInnerHTML={{
+            __html: testim,
+          }}
+        ></p>
+        <h3>{student}</h3>
       </div>
     </div>
   );

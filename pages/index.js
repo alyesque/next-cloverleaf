@@ -37,7 +37,7 @@ export default function Home() {
 
         <hr className="hrHome" />
         <section className="flex list">
-          <div className="left1">
+          <div className="right1">
             <h2>
               {" "}
               Homework Help <br />
@@ -79,12 +79,11 @@ export default function Home() {
               alt="professional woman sitting at a desk"
             />
             <p>
-              We can schedule an assessment to help me design a custom learning
-              plan for your student. Let me help your student soar ahead or get
-              caught up! My assessments are aligned with Common Core standards
-              to ensure your student meets and exceeds grade-level expectations.
-              Whether you're looking for enrichment, review, or anything in
-              between, I can help. Schedule your assessment today!
+              Let me help your student soar ahead or get caught up! My
+              assessments are aligned with Common Core standards to ensure your
+              student meets and exceeds grade-level expectations. Whether you're
+              looking for enrichment, review, or anything in between, I can
+              help. Schedule your assessment today!
             </p>
           </div>
         </section>

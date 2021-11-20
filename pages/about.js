@@ -20,9 +20,9 @@ function About() {
             {" "}
             All sessions are one-on-one to ensure the session is as productive
             as possible. I offer a diagnostic assessment for all students as a
-            tool to ensure our work is as beneficial as possible. I can provide
-            curricular materials and additional homework problems if desired.{" "}
-            <br></br>
+            tool to identify any gaps in knowledge and areas for improvement. I
+            can provide curricular materials and additional homework problems if
+            desired. <br></br>
             <br></br>Both online and in-person sessions are available. In-person
             sessions take place in the Eugene/Springfield, OR area. All sessions
             cost $50/hour.

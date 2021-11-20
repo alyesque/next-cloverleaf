@@ -219,7 +219,7 @@ h2 {
 }
 
 .smallimg {
-  height: 9rem;
+  max-height: 6rem;
   border-radius: 6px;
 }
 
