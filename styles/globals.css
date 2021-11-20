@@ -3,6 +3,7 @@ body {
   padding: 0;
   font-family: "Open Sans", sans-serif;
   margin: 0;
+  overflow-x: hidden;
 }
 
 h1 {
@@ -192,6 +193,13 @@ nav a:hover {
   margin: 0 auto;
   border-radius: 6px;
   min-width: 650px;
+}
+.sectionimage2 {
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+  border-radius: 6px;
+  min-width: 200px;
 }
 
 h2 {
@@ -464,6 +472,10 @@ a {
     padding: 25px;
     background-color: #ebf3e9;
   }
+
+  .seemore {
+    height: 5rem;
+  }
 }
 
 .hrHome {
@@ -488,7 +500,7 @@ a {
 }
 
 .sectionimage2 {
-  max-width: 600px;
+  max-width: 300px;
 }
 
 .blogPost a {

@@ -2,7 +2,7 @@ import Head from "next/dist/shared/lib/head";
 
 function About() {
   return (
-    <div>
+    <div className="abt">
       <Head>
         <title>Cloverleaf Math - About</title>
       </Head>
@@ -10,7 +10,7 @@ function About() {
         <div className="right1">
           <img
             src="./images/onmeet.png"
-            className="sectionimage"
+            className="sectionimage2"
             alt="illustration of woman at desk"
           />
         </div>
@@ -19,9 +19,10 @@ function About() {
           <p>
             {" "}
             All sessions are one-on-one to ensure the session is as productive
-            as possible. I offer a free assessment for new students as a
-            diagnostic tool to help us in our work. I can provide curricular
-            materials and additional homework problems if desired. <br></br>
+            as possible. I offer a diagnostic assessment for all students as a
+            tool to ensure our work is as beneficial as possible. I can provide
+            curricular materials and additional homework problems if desired.{" "}
+            <br></br>
             <br></br>Both online and in-person sessions are available. In-person
             sessions take place in the Eugene/Springfield, OR area. All sessions
             cost $50/hour.
@@ -82,15 +83,15 @@ function About() {
             Oregon with an emphasis on analysis and probability. I’m passionate
             about helping students develop confidence in their own mathematical
             abilities, and I believe in an affirming approach to mathematics
-            education that supports students as learners.
+            education that supports students as mathematical learners.
             <br />
             <br />
             My goal as a tutor is to make mathematics accessible, rewarding, and
             enriching for all my students. I take a proactive and highly
-            personalized approach that empowers your student as a learner based
-            on their unique needs and goals. I love seeing students realize
-            their potential as mathematical learners, and I would love to
-            partner with your student to help them succeed and excel.
+            personalized approach that empowers your student based on their
+            unique needs and goals. I love seeing students realize their
+            potential in mathematics, and I would love to partner with your
+            student to help them succeed and excel.
             <br />
             <br />
             Let’s get started!
