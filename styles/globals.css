@@ -501,7 +501,7 @@ a {
   margin: 30px auto;
   display: flex;
   align-items: center;
-  max-width: 80%;
+  max-width: 95%;
 }
 
 .testiCard {
@@ -512,12 +512,12 @@ a {
 }
 
 .clicker {
-  background-color: #ebf3e9;
-  margin: 0 10px;
+  background-color: white;
+  margin: 0 20px;
   border: 1px solid #12805c;
-  padding: 15px 5px;
+  padding: 2px 5px;
   font-weight: bold;
-  font-size: 2rem;
+  font-size: 1.5rem;
   cursor: pointer;
   border-radius: 5px;
   -moz-user-select: -moz-none;
@@ -533,4 +533,15 @@ a {
 
 .articleList {
   min-height: 75vh;
+}
+
+.testiflex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.currenttestim {
+  font-weight: bold;
+  font-size: 1rem;
 }
