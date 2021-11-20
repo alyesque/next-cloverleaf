@@ -4,7 +4,7 @@ function Testimonials() {
   let TestArray = [
     "Clare is an amazing tutor, she is kind, patient and very knowledgeable in mathematics. She has helped me to understand the material in school, as well as preparing me for exams. She crafts interesting material with real world examples. I greatly enjoy my time spent working with her.",
     "Clare worked with me in preparation for the GRE. Math has always left me feeling insecure, but Clare’s infectious enthusiasm for the subject made the commitment of time to studying much less intimidating. Her deep knowledge, patience, and abundant assurance put me at my best for test day.",
-    "Clare is a rare gem when it comes to tutoring. She is able to explain difficult concepts easily to her students (my kids range in age from 5 to 14). She keeps her students engaged and makes math interesting and fun. My kids actually look forward to their session with Clare which speaks volumes of her dedication and skills. As a parent, I can’t ask for more. We feel lucky to have her! ",
+    "Clare is a rare gem when it comes to tutoring. She is able to explain difficult concepts easily to her students (my kids range in age from 5 to 14). She keeps her students engaged and makes math interesting and fun. My kids actually look forward to their session with Clare which speaks volumes of her dedication and skills. As a parent, I can’t ask for more. We feel lucky to have her! <br/><br/>‘She explains things well’ Yuni, 9th grade <br/> ‘She knows a lot about everything’ Kobe, 7th grade <br/>‘She’s fun!’ Mina, kindergarten",
     "Clare is an amazing professional tutor.  She has worked with both my 8th grade child on math and my 2nd grade child on distance learning tasks.  My older child would not have been as successful during distance learning without her.  He was more successful in school with more confidence in math thanks to her support.  She is patient, kind, and positive with my younger student who experiences ADHD.  She calmly redirects, restates instructions in ways he can understand and independently provides visual supports to guide his learning.  She is wonderful with parent feedback and will provide home practice to better gain skills between sessions.  I highly recommend Clare for all students, especially those with different learning needs.",
   ];
 
@@ -43,7 +43,11 @@ function Testimonials() {
   return (
     <div className="testimonial">
       <div className="testiCard">
-        <p>{testim}</p>
+        <p
+          dangerouslySetInnerHTML={{
+            __html: testim,
+          }}
+        ></p>
         <h3>{student}</h3>
         <div className="testiflex">
           <div className="clicker" onClick={() => backwardTest()}>
