@@ -27,6 +27,7 @@ function Contact() {
       .catch((err) => {
         console.log("FAILED...", err);
       });
+    alert("Message sent!");
   };
 
   const handleChange = (e) => {
