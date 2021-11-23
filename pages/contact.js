@@ -107,7 +107,7 @@ function Contact() {
             value={toSend.message}
             onChange={handleChange}
           ></textarea>
-          <button>Submit</button>
+          <button onClick={onSubmit}>Submit</button>
         </form>
       </div>
     </main>
