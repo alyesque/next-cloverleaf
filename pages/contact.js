@@ -62,7 +62,11 @@ function Contact() {
           className="formflexcontent formimg"
           alt="illustrated image of email and communication icons"
         />
-        <form className="formflexcontent" onChange={handleChange}>
+        <form
+          className="formflexcontent"
+          onChange={handleChange}
+          onSubmit={onSubmit}
+        >
           <h2>
             {" "}
             Interested in a consultation, or want to get started with tutoring?
@@ -103,7 +107,7 @@ function Contact() {
             value={toSend.message}
             onChange={handleChange}
           ></textarea>
-          <button onClick={onSubmit}>Submit</button>
+          <button>Submit</button>
         </form>
       </div>
     </main>
