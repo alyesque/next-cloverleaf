@@ -62,11 +62,7 @@ function Contact() {
           className="formflexcontent formimg"
           alt="illustrated image of email and communication icons"
         />
-        <form
-          className="formflexcontent"
-          onSubmit={onSubmit}
-          onChange={handleChange}
-        >
+        <form className="formflexcontent" onChange={handleChange}>
           <h2>
             {" "}
             Interested in a consultation, or want to get started with tutoring?
