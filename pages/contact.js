@@ -15,7 +15,6 @@ function Contact() {
   });
 
   const onSubmit = (e) => {
-    e.preventDefault();
     send(
       "service_msi0l74",
       "template_i4vm6ka",
