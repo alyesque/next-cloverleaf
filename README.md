@@ -6,6 +6,13 @@ Most pages are simple static display pages which are meant primarilly to convey 
 
 The contact form makes use of EmailJs to enable communication between sustomers and the tutoring center. 
 
-![alt text](https://i.imgur.com/iPUKFbf.png)
 
-The only dynamically generated pages are the blog page and the individual blog post pages which 
+<img src="https://i.imgur.com/iPUKFbf.png" alt="contact form" width="400" >
+
+
+The only dynamically generated pages are the blog page and the individual blog post pages which use dynamic routing to generate unique blog post links. 
+
+
+<img src="https://i.imgur.com/LNMBQOQ.png" alt="blog page" width="400" > <img src="https://i.imgur.com/lfA4yIZ.png" alt="blog post page" width="400" >
+
+
