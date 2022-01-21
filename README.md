@@ -16,3 +16,4 @@ The only dynamically generated pages are the blog page and the individual blog p
 <img src="https://i.imgur.com/LNMBQOQ.png" alt="blog page" width="400" > <img src="https://i.imgur.com/lfA4yIZ.png" alt="blog post page" width="400" >
 
 
+<strong> Stack: HTML, CSS, JS, Next.js </strong>
