@@ -49,7 +49,7 @@ export default function Home() {
               alt="woman at desk writing"
             />
             <p>
-              In a one-on-one tutoring session, I’ll explain concepts andr
+              In a one-on-one tutoring session, I’ll explain concepts and
               methods in a way that is compatible with your learning style and
               background, and guide you through each stage of the learning
               process. We can identify and correct any subtle misunderstandings

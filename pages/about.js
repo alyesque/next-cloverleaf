@@ -25,7 +25,7 @@ function About() {
             desired. <br></br>
             <br></br>Both online and in-person sessions are available. In-person
             sessions take place in the Eugene/Springfield, OR area. All sessions
-            cost $50/hour.
+            cost $65/hour.
           </p>
         </div>
       </section>
