@@ -53,7 +53,7 @@ function Contact() {
           .
           <br />
           <br />
-          You can also give me a call or text at <strong>(541) 484-9867</strong>
+          You can also give me a call or text at <strong>(541) 484-9367</strong>
           . I look forward to hearing from you!
         </p>
       </div>
