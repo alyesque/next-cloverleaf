@@ -23,9 +23,9 @@ function About() {
             tool to identify any gaps in knowledge and areas for improvement. I
             can provide curricular materials and additional homework problems if
             desired. <br></br>
-            <br></br>Both online and in-person sessions are available. In-person
-            sessions take place in the Eugene/Springfield, OR area. All sessions
-            cost $65/hour.
+            <br></br>All sessions take place via Zoom. Session costs range from
+            $60-$75 per hour, depending on complexity and your unique goals. A
+            limited number of sliding scale spots are available.
           </p>
         </div>
       </section>

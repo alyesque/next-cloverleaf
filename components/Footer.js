@@ -1,7 +1,5 @@
 function Footer() {
-  return (
-    <div className="footer">© Cloverleaf Mathematics 2021 - Eugene, Oregon</div>
-  );
+  return <div className="footer">© Cloverleaf Mathematics 2023</div>;
 }
 
 export default Footer;
