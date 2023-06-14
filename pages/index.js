@@ -19,8 +19,7 @@ export default function Home() {
               Keep your math skills sharp! I work with K-12 students, college
               students, and adult learners to help them achieve their goals. I
               can help with homework and class content, or I can design a custom
-              learning plan for your student. Both online and in-person sessions
-              are available.
+              learning plan for your student.
             </p>
             <Link href="/contact">
               <button> Request A Consultation </button>

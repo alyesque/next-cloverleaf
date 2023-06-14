@@ -78,12 +78,12 @@ function About() {
           <h1 className="h1Big">About Clare</h1>
           <p>
             {" "}
-            I have nearly a decade of math tutoring experience, both online and
-            in-person. I have a degree in mathematics from the University of
-            Oregon with an emphasis on analysis and probability. I’m passionate
-            about helping students develop confidence in their own mathematical
-            abilities, and I believe in an affirming approach to mathematics
-            education that supports students as mathematical learners.
+            I have nearly a decade of math tutoring experience. I have a degree
+            in mathematics from the University of Oregon with an emphasis on
+            analysis and probability. I’m passionate about helping students
+            develop confidence in their own mathematical abilities, and I
+            believe in an affirming approach to mathematics education that
+            supports students as mathematical learners.
             <br />
             <br />
             My goal as a tutor is to make mathematics accessible, rewarding, and
